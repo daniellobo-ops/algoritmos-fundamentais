@@ -1,0 +1,12 @@
+{
+    "name": "algoritmos-fundamentais",
+    "version": "1.0.0",
+    "description": "Algoritmos fundamentais e testes unitários em Jest",
+    "main": "funcoes/fibonacci.js",
+    "scripts": {
+        "test": "jest"
+    },
+    "devDependencies": {
+        "jest": "^29.7.0"
+    }
+}
