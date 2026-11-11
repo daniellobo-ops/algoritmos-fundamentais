@@ -1,25 +1,33 @@
-# Algoritmos Fundamentais e Testes Unitários
+# Algoritmos Fundamentais — Execução dos Testes Unitários
 
-Este repositório contém a implementação dos algoritmos fundamentais refatorados utilizando princípios de Clean Code e Programação Defensiva, juntamente com suítes de testes unitários automatizados desenvolvidos com o Jest.
+Este repositório contém os algoritmos fundamentais acompanhados de testes unitários automatizados com a biblioteca **Jest**.
 
-## 📁 Estrutura do Projeto
+## 🛠️ Como Executar os Testes
 
-```text
-Algoritmos-Fundamentais/
-├── funcoes/
-│   ├── contagem.js
-│   ├── fibonacci.js
-│   ├── mdc.js
-│   ├── numeroprimo.js
-│   ├── quicksort.js
-│   └── somatorio.js
-├── tests/
-│   ├── contagem.test.js
-│   ├── fibonacci.test.js
-│   ├── mdc.test.js
-│   ├── numeroprimo.test.js
-│   ├── quicksort.test.js
-│   └── somatorio.test.js
-├── .gitignore
-├── package.json
-└── README.md
+### 1. Instalar as dependências
+Abra o terminal na raiz do projeto e execute o comando abaixo para instalar o Jest:
+
+```bash
+npm install
+
+2. Rodar a suíte de testes
+Para executar todos os testes unitários, rode o comando:
+
+Bash
+npm test
+📋 Arquivos de Teste Executados
+Ao rodar o comando npm test, o Jest executará automaticamente as seguintes suítes localizadas na pasta tests/:
+
+tests/contagem.test.js
+
+tests/fibonacci.test.js
+
+tests/mdc.test.js
+
+tests/numeroprimo.test.js
+
+tests/quicksort.test.js
+
+tests/somatorio.test.js
+
+Um resultado bem-sucedido exibirá a mensagem de aprovação PASS para todos os módulos no terminal.
